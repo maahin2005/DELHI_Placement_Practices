@@ -1,8 +1,10 @@
-# React + Vite
+# what is debouncing?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Debouncing is a technique that helps us to prevent/decrease unnecessary and repeating API call
+- using this debouncing we can improve our application's API calls
 
-Currently, two official plugins are available:
+### inbox - searching something
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    - when someone is writing/typing in that Input box
+    - dress
+    - when user stop typing/writing in the Inout box then we will start API call with it's full word

@@ -1,12 +1,11 @@
-import Login from "./components/Login";
-import Products from "./components/Products";
+// import Login from "./components/Login";
+// import Products from "./components/Products";
+import Search from "./components/Search";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
-      <Login />
-      <Products />
+      <Search />
     </>
   );
 }
